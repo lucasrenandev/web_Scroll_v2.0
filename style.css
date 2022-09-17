@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1B1D20;
+    padding: 0 0 400px 0;
+}
+
+h1 {
+    margin: 200px 0 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+p {
+    color: #B0B2B3;
+    font-size: 1.1em;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 25px;   
+}
+
+section a {
+    display: block;
+    max-width: 120px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #9B30F9;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 15px 0 0 0;
+}
+
+header {
+    height: 100px;
+    background-color: #010101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2em;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;    
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sobre {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.produtos {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.documentos {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.suporte {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.blog {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+    padding: 10px;
+}
