@@ -1,13 +1,13 @@
 // Selecionando todos os links 
 const menuItems = document.querySelectorAll("nav a")
 
-// Adicionando evento em todos os links
+// Adicionando evento de clique em todos os links
 menuItems.forEach(item => {
-    item.addEventListener("click", scrollId)
+    item.addEventListener("click", scrollById)
 })
 
 // Scroll por ID 
-function scrollId(event) {
+function scrollById(event) {
     event.preventDefault()
     const scroll = getScrollByHref(event.target) - 100
     scrollBehavior(scroll)
