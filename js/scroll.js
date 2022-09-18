@@ -9,14 +9,14 @@ menuItems.forEach(item => {
 // Scroll por ID 
 function scrollById(event) {
     event.preventDefault()
-    const scrollSmooth = getScrollByHref(event.target) - 100
-    scrollBehavior(scrollSmooth)
+    const scroll = getScrollByHref(event.target) - 100
+    scrollToPosition(scroll)
 }
 
 // Scroll suave
-function scrollBehavior(Smooth) {
+function scrollToPosition(to) {
     window.scroll({
-        top: Smooth,
+        top: to,
         behavior: "smooth"
     })
 }
