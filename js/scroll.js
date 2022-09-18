@@ -9,7 +9,7 @@ menuItems.forEach(item => {
 // Scroll por ID 
 function scrollById(event) {
     event.preventDefault()
-    const scroll = getScrollByHref(event.target) - 100
+    const scroll = getScrollIdByHref(event.target) - 100
     scrollToPosition(scroll)
 }
 
@@ -22,7 +22,7 @@ function scrollToPosition(to) {
 }
 
 // Buscando elemento por Href
-function getScrollByHref(element) {
+function getScrollIdByHref(element) {
     const id = element.getAttribute("href")
     return document.querySelector(id).offsetTop
 }
